@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,700);
+
+body, html {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #000;
+}
+
+h1 {
+    font-size: 60px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+@media (max-width:1600px) {
+    h1 {
+        font-size: calc(30px + (60 - 30) * ((100vw - 320px) / (1920 - 320)));
+    }
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+@media (max-width:1600px) {
+    h2 {
+        font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1920 - 320)));
+    }
+}
+
+h3 {
+    font-size: 19px;
+    margin: 0;
+    color: #efefef;
+    font-family: "Roboto", sans-serif;
+}
+
+@media (max-width:1600px) {
+    h3 {
+        font-size: calc(14px + (19 - 14) * ((100vw - 320px) / (1920 - 320)));
+    }
+}
+
+h4 {
+    font-size: 16px;
+    margin: 0;
+    color: #b7b9be;
+    font-family: "Roboto", sans-serif;
+}
+
+@media (max-width:1600px) {
+    h4 {
+        font-size: calc(12px + (16 - 12) * ((100vw - 320px) / (1920 - 320)));
+    }
+}
+
+a {
+    font-size: 20px;
+    color: #cdcdcd;
+    text-decoration: transparent;
+    transition: all ease-in-out .3s;
+    font-family: "Roboto", sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: #ff6f0f;
+    transition: all ease-in-out .3s;
+}
+
+@media (max-width:1600px) {
+    a {
+        font-size: calc(10px + (20 - 10) * ((100vw - 320px) / (1920 - 320)));
+    }
+}
+
+
+p {
+    font-family: "Roboto", sans-serif;
+}
+.main {
+    overflow: hidden;
+}
